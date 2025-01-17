@@ -145,6 +145,21 @@ main > section{
      margin-bottom: 0px;
     
 }
+.button-btn{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500; 
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+#button{
+   font-size: 3.5rem;
+   font-weight: 700;  
+}
+.featured-architec img{
+     width: 100%;
+}
 /* some facts related styles */
 
 .facts-container{
@@ -188,12 +203,20 @@ main > section{
      display: grid;
      grid-template-columns: repeat(5, 1fr);
  }
+
+ /* foooter section title  */
+ .footer{
+     background-color: #FF900E;
+     text-align: center;
+     padding: 50px 50px;
+ }
  
 /* responsive media query */
 
  @media screen and (max-width: 576px) {
       .banner, 
       .nav-links, 
+      .fectures,
       .teams
      {
           flex-direction: column;
@@ -219,13 +242,17 @@ main > section{
       .our-features{
           margin: 30px;
      }
+     .button-btn{
+          margin-top: 20px;
+          margin-left: 20px;
+     }
 } 
       
 
 /* medium sixe devise */
 
  @media screen and (min-width: 576px) and (max-width:992px) { 
-     .teams{
+     .teams, .fectures{
      flex-direction: column
     }
     .our-features{
@@ -236,5 +263,9 @@ main > section{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+    .button-btn{
+     margin-top: 20px;
+     margin-left: 20px;
     }
 } 
