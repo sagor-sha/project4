@@ -193,6 +193,7 @@ main > section{
 }
 
  /* sponsor relateb styles  */
+ 
  .sponsor-info{
      max-width: 540px;
      margin: 50px auto;
@@ -205,6 +206,7 @@ main > section{
  }
 
  /* foooter section title  */
+
  .footer{
      background-color: #FF900E;
      text-align: center;
@@ -225,7 +227,7 @@ main > section{
       .facts-container,
       .sponsor-companies 
      {
-         grid-template-columns: repeat(1,1fr); 
+         grid-template-columns: repeat(1, 1fr); 
      
        
        }
@@ -248,7 +250,6 @@ main > section{
      }
 } 
       
-
 /* medium sixe devise */
 
  @media screen and (min-width: 576px) and (max-width:992px) { 
